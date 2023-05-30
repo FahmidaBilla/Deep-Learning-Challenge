@@ -60,13 +60,17 @@ Alphabet Soup’s business team provided a CSV containing more than 34,000 organ
     - Third hidden layer: 20 neurons, relu activation function
     - Output layer: 1 neuron, sigmoid activation function
 
--  Target initial model performance was achieved as follows
+-  Target initial Keras model performance was achieved as follows
 
+<img width="742" alt="initial_model" src="https://github.com/FahmidaBilla/Deep-Learning-Challenge/assets/120361200/9ec76488-f323-4be2-91c5-defa8f8ce061">
 
 
 
 
 -  Target optimized model performance was achieved as follows
+
+<img width="1159" alt="optimization_model" src="https://github.com/FahmidaBilla/Deep-Learning-Challenge/assets/120361200/f7f92220-25cd-4df7-853d-ac4a5b6f2b16">
+
 
 
 
@@ -75,15 +79,25 @@ Alphabet Soup’s business team provided a CSV containing more than 34,000 organ
 
     - Kept the NAME variable and binned any values with a count less than 100 as 'Other'
 
+        <img width="887" alt="name" src="https://github.com/FahmidaBilla/Deep-Learning-Challenge/assets/120361200/608575fa-b4c0-4468-aa0d-c9c894752841">
+
 
 
 
     - Binned AFFILIATION variable for any values with a count less than 60 as 'Other'
 
+        <img width="784" alt="affiliation" src="https://github.com/FahmidaBilla/Deep-Learning-Challenge/assets/120361200/1da035a7-9a41-414e-9dec-6b995f528de3">
+
+
 
 
 
     - Binned CLASSIFICATION variable for any values with a count less than 1000 as 'Other' instead of 700 
+
+        <img width="830" alt="classification" src="https://github.com/FahmidaBilla/Deep-Learning-Challenge/assets/120361200/f24a888d-0bfe-4541-8db4-e899705bc6cd">
+
+
+
 
 
 
